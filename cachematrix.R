@@ -16,7 +16,7 @@ message("getting cached data")
 return(inv)
 }
 data <- s$getMatrix()
-inv<-solve(data,…)
+inv<-solve(data,…) % inverse function
 s$setInverse(inv)
 inv
 }
